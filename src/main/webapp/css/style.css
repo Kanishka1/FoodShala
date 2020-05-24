@@ -1,0 +1,179 @@
+body, html 
+{
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin: 10;
+   z-index: 1;
+  }
+.bg {
+    height: 100%; 
+    width: 100%;
+
+    
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Lato");
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family:var(--secondfont);
+        background: url( '../images/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.fullcontent{
+    padding-top:0px
+    width:100%;
+    min-height: 100vh;
+    height: auto;
+    padding:6% 10% 5% 10%;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: row;
+    opacity: 50;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+:root{
+    --primaryred:#ff424f;
+    --secondaryred:#f84735;
+    --lightblack:#222b31;
+    --darkblack:#191c1f;
+    --mainfont:'Dancing Script', cursive;
+    --secondfont: 'Lato', sans-serif;
+}
+.formbox{
+    background:rgb(34,43,49,0.7);
+    color:limegreen;
+    flex-basis: 35%;
+    border-top: 10px solid var(--secondaryred);
+    padding:2% 3%;
+    margin-left:350px;
+    height: 365px;
+    width:500px;
+    margin-top: 0px;
+    
+}
+
+.formbox h3{
+    font-family: var(--mainfont);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.formbox form label{
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 0.3rem;
+}
+.formbox form .asd{
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+    background:transparent;
+    height: 2.8rem;
+    display:block;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    color: darkorange;
+}
+form .mainbox{
+    color:limegreen;
+    box-shadow: none;
+    background: var(--secondaryred);
+    height: 2.8rem;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    border:white;
+}
+a .mainbox{
+    margin: 0;
+    padding: 2%;
+}
+.container-fluid
+{
+	padding: 3% 15% 7% ;
+}
+
+.navbar
+{
+	padding:0 0 4.5rem;
+        color:white;
+        height:100px;
+}
+
+.navbar-brand
+{
+	font-family: 'Ubuntu';
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+.nav-item
+{
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.nav-link
+{
+	font-size: 1.5rem;
+	font-family: 'Montserrat-Dark';
+        color:white;
+        text-align: center;
+        
+}
+
+
+footer
+{
+    position:fixed;
+    left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 50px;
+text-align: center;
+z-index: auto;        
+}
+
+.link
+{
+	color: limegreen;
+}
+#footer
+{
+	text-align: center;
+}
+.fab ,.fas
+{
+	padding:20px;
+	color: limegreen;	
+}
+#copy
+{
+    color: green;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size:16px;
+    color: white; text-align: center; font-family: 'Poppins', sans-serif;
+}

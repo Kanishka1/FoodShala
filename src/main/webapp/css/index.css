@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 May, 2020, 6:18:37 PM
+    Author     : Kanishka
+*/
+
+html 
+{
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin: 10;
+   z-index: 1;
+  }
+
+
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Lato");
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family:var(--secondfont);
+        background:url('../images/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+          box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  
+   z-index: 1;
+}
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.container-fluid
+{
+	padding: 3% 15% 7% ;
+}
+
+.navbar
+{
+	padding:0 0 4.5rem;
+        color:white;
+        height:100px;
+}
+
+.navbar-brand
+{
+	font-family: 'Ubuntu';
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.nav-item
+{
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.nav-link
+{
+	font-size: 1.5rem;
+	font-family: 'Montserrat-Dark';
+        color:white;
+        text-align: center;
+        
+}
+
+
+footer
+{
+    position:fixed;
+    left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 50px;
+text-align: center;
+z-index: auto;        
+}
+
+.link
+{
+	color: limegreen;
+}
+#footer
+{
+	text-align: center;
+}
+.fab ,.fas
+{
+	padding:20px;
+	color: limegreen;	
+}
+
+#copy
+{
+    color: green;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size:16px;
+}
+
+img{
+    height:150px;
+    wddth:250px;
+}
+
