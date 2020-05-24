@@ -53,7 +53,7 @@ public class restaurant extends HttpServlet {
         String h=request.getParameter("cpass");
         try{
              Class.forName("com.mysql.jdbc.Driver");
-          Connection  con=DriverManager.getConnection("jdbc:mysql://localhost:3306/login1","root","myserver");
+          Connection  con=DriverManager.getConnection("jdbc:mysql://localhost:3306/db_name","username","password");
              PreparedStatement s=con.prepareStatement("insert into restaurant(name,address,email,mob,spec,pass,cpass)values(?,?,?,?,?,PASSWORD(?),PASSWORD(?))");
     
     s.setString(1, a);
