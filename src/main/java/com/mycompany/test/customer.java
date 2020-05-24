@@ -79,7 +79,7 @@ public class customer extends HttpServlet {
         
         try{
              Class.forName("com.mysql.jdbc.Driver");
-         Connection  con=DriverManager.getConnection("jdbc:mysql://localhost:3306/login1","root","myserver");
+         Connection  con=DriverManager.getConnection("jdbc:mysql://localhost:3306/db_name","username","password");
           //PreparedStatement s=con.prepareStatement("insert into cust_login values(?,PASSWORD(?))");
           PreparedStatement ps=con.prepareStatement("insert into customer(name,address,email,mob,pass,cpass,pref)values(?,?,?,?,PASSWORD(?),PASSWORD(?),?)");
     
