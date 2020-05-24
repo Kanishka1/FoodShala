@@ -12,7 +12,7 @@ public class login_cus {
     try
     {  
         Class.forName("com.mysql.jdbc.Driver");  
-        Connection  con=DriverManager.getConnection("jdbc:mysql://localhost:3306/login1","root","myserver");
+        Connection  con=DriverManager.getConnection("jdbc:mysql://localhost:3306/db_name","username","password");
         PreparedStatement ps=con.prepareStatement ("select * from customer where email=? and pass=PASSWORD(?)");  
         ps.setString(1,username);  
         ps.setString(2,password);  
