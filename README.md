@@ -1,8 +1,5 @@
 # FoodShala
 An Online Food Ordering System
-* The application is made using HTML, CSS, JAVASCRIPT, BOOTSTRAP as the frontend and Java at Backend.
-* To run the solution,replace the Database configuration with your data.
-* To check the functionality of the system use the followig data:
-Restaurant/Admin Login: Username: navnita@gmail.com Password: navnita
-Customer/User Login: Username: customer@gmail.com Password: customer
-* Note : Sample data has been inserted within the database to demonstrate the wroking of the application. 
+* The application is made using HTML, CSS, JAVASCRIPT, BOOTSTRAP as the frontend, Java(JSP) at Backend and MySQL as Database.
+* To build the solution,build the application with Maven(JAVA)
+* To run the application, replace the Database configuration with your MySQL credentials. 
