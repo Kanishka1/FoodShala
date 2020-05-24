@@ -55,7 +55,7 @@ public class admin extends HttpServlet {
         
         try{
              Class.forName("com.mysql.jdbc.Driver");
-             Connection  con=DriverManager.getConnection("jdbc:mysql://localhost:3306/login1","root","myserver");
+             Connection  con=DriverManager.getConnection("jdbc:mysql://localhost:3306/db_name","username","password");
              PreparedStatement ps=con.prepareStatement("insert into menu(item,price,type,rname) values(?,?,?,?)");
             
     ps.setString(1,a);
